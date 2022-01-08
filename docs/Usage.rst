@@ -7,7 +7,7 @@ IMDLIB is capable of downloading gridded rainfall and temperature (minimum and m
 
     import imdlib as imd
 
-    start_yr = 2010
+    start_yr = 2001
     end_yr = 2018
     variable = 'rain' # other options are ('tmin'/ 'tmax')
     data = imd.get_data(variable, start_yr, end_yr, fn_format='yearwise')
